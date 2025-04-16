@@ -28,6 +28,7 @@ body {
     display: flex;
     color: rgb(255, 180, 150);
     padding-left: 3rem;
+    margin-top: -0.5rem;
 }
 a {
     padding: 2rem;
@@ -41,7 +42,8 @@ header {
     width: 100%;
 }
 nav {
-    padding: 3rem;
+    margin-top: 0.5rem;
+    padding: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
