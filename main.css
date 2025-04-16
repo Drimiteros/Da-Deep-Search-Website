@@ -86,14 +86,13 @@ nav {
 }
 
 .description_container {
-    max-width: 108rem;
+    margin-top: -6rem;
+    max-width: 100rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     border-radius: 15px;
-    background-color: rgb(35, 35, 40);
-    border: 2px solid rgb(255, 200, 180);
     animation: slideFadeInLeft 1s ease-out forwards;
 }
 @keyframes slideFadeInLeft {
@@ -110,6 +109,7 @@ nav {
 .description_container h2 {
     color: rgb(255, 230, 200);
     padding-top: 1rem;
+    font-size: 3rem;
 }
 .description_container2 {
     padding: 1.5rem;
@@ -130,9 +130,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3rem;
-    margin-bottom: -3rem;
+    border: 2px solid rgb(255, 200, 180);
     border-radius: 15px;
+    margin-top: 7rem;
 }
 .image2 img{
     transform: scale(0.39);
@@ -215,7 +215,7 @@ nav {
     font-weight: bold;
     border-width: 0px;
     transition: all 0.3s ease;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
 }
 .button1 a {
     color: rgb(35, 35, 40);
@@ -235,6 +235,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     background-color: rgb(35, 35, 40);
+    color: rgb(255, 180, 150);
 }
 .container2 h2 {
     padding-top: 5rem;
@@ -261,7 +262,7 @@ nav {
 hr {
     border: none;
     height: 0.15rem;
-    background-color: rgb(255, 180, 150);
+    background-color: rgb(60, 60, 68);
     width: 45rem;
     margin: 1rem 0;
 }
