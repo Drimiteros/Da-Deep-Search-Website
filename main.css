@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(55, 55, 60);
+    background: linear-gradient(360deg, #ff9558, #37373c);
     animation: fadein 2s ease-out forwards;
 }
 @keyframes fadein {
