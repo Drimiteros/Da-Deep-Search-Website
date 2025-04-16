@@ -86,12 +86,14 @@ nav {
 }
 
 .description_container {
-    padding: 2rem;
     max-width: 108rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 40);
+    border: 2px solid rgb(255, 200, 180);
     animation: slideFadeInLeft 1s ease-out forwards;
 }
 @keyframes slideFadeInLeft {
@@ -113,18 +115,14 @@ nav {
     padding: 1.5rem;
     max-width: 50rem;
     border-radius: 15px;
-    border: 1px solid rgb(255, 200, 180); /* Soft peach tone */
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(45, 45, 50);
-    margin-left: 8rem;
 }
-.description_container2 h3 {
-    color: rgb(255, 230, 200);
-    padding-bottom: 1rem;
+.description_container2 a {
+    font-size: 1.2rem;
 }
 
 .image1 img{
@@ -135,7 +133,6 @@ nav {
     margin-top: -3rem;
     margin-bottom: -3rem;
     border-radius: 15px;
-    border: 2px solid rgb(255, 200, 180);
 }
 .image2 img{
     transform: scale(0.39);
@@ -218,6 +215,7 @@ nav {
     font-weight: bold;
     border-width: 0px;
     transition: all 0.3s ease;
+    margin-right: 2rem;
 }
 .button1 a {
     color: rgb(35, 35, 40);
@@ -264,6 +262,6 @@ hr {
     border: none;
     height: 0.15rem;
     background-color: rgb(255, 180, 150);
-    width: 35rem;
+    width: 45rem;
     margin: 1rem 0;
 }
