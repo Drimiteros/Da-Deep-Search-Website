@@ -6,15 +6,15 @@
 }
 
 body {
-    background: linear-gradient(360deg, #ff9558, #37373c);
-    animation: fadein 2s ease-out forwards;
+    background: linear-gradient(to top, #493027, #37373c);
+    animation: gradientFlow 2s ease-out forwards;
 }
-@keyframes fadein {
+@keyframes gradientFlow {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 100;
     }
 }
 
