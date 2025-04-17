@@ -378,3 +378,9 @@ hr {
     width: 45rem;
     margin: 1rem 0;
 }
+
+@media (max-width: 768px) {
+    hr {
+        width: 20rem;
+    }
+}
