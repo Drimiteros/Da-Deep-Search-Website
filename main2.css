@@ -81,7 +81,7 @@ nav {
 .nav-links a {
     position: relative;
     display: inline-block;
-    color: rgb(255, 207, 150);
+    color: rgb(255, 180, 150);
     padding:  0rem 2rem;
     overflow: hidden;
     transition: color 0.3s ease;
@@ -95,7 +95,7 @@ nav {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 207, 150);
+    background-color: rgb(255, 180, 150);
     z-index: -1;
     transform: scaleX(0);
     transform-origin: left;
@@ -106,7 +106,7 @@ nav {
     transform: scaleX(1);
 }
 .nav-links a:hover {
-    color: rgb(130, 75, 4);
+    color: rgb(0,0,0);
 }
 
 .description_container {
