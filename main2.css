@@ -148,6 +148,7 @@ nav {
 }
 .description_container2 a {
     font-size: 1.2rem;
+    color: rgb(255, 180, 150);
 }
 
 .image img{
@@ -242,7 +243,7 @@ nav {
 .button1 {
     width: 190px;
     height: 60px;
-    background-color: rgb(150, 95, 4);
+    background-color: rgb(255, 180, 150);
     border-width: 1px;
     border-radius: 10px;
     font-size: 1.22rem;
@@ -257,7 +258,7 @@ nav {
 .button1:hover {
     width: 200px;
     height: 60px;
-    background-color: rgb(250, 195, 134);
+    background-color: rgb(255, 230, 200);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -267,7 +268,7 @@ nav {
 .button2 {
     width: 200px;
     height: 60px;
-    background-color: rgb(150, 95, 4);
+    background-color: rgb(255, 180, 150);
     border-width: 1px;
     border-radius: 10px;
     font-size: 1.22rem;
@@ -276,12 +277,12 @@ nav {
     transition: all 0.3s ease;
 }
 .button2 a {
-    color: rgb(250, 195, 134);
+    color: rgb(35, 35, 40);
 }
 .button2:hover {
     width: 210px;
     height: 60px;
-    background-color: rgb(250, 195, 134);
+    background-color: rgb(255, 230, 200);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -304,7 +305,7 @@ nav {
     font-size: 2.5rem;
 }
 .container2 a {
-    color: rgb(220, 165, 74);
+    color: rgb(255, 180, 150);
 }
 
 .about_container {
@@ -316,10 +317,10 @@ nav {
     flex-direction: row;
 }
 .about_container a {
-    color: rgb(220, 165, 74);
+    color: rgb(255, 180, 150);
 }
 .about_container h3 {
-    color: rgb(255, 195, 104);
+    color: rgb(255, 180, 150);
     padding-top: 1rem;
 }
 
