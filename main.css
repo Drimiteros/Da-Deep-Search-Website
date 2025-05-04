@@ -122,7 +122,7 @@ a {
 
 .description_container {
     margin-top: -6rem;
-    max-width: 100rem;
+    max-width: 105rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +165,6 @@ a {
 }
 .description_container2 {
     padding: 1.5rem;
-    max-width: 50rem;
     border-radius: 15px;
     text-align: left;
     display: flex;
@@ -187,8 +186,8 @@ a {
 }
 @media (max-width: 768px) {
     .image1 img {
-        margin-top: -8rem;
-        transform: scale(0.43);
+        margin-top: -12rem;
+        transform: scale(0.40);
     } 
 }
 
@@ -362,6 +361,14 @@ a {
     justify-content: center;
     color: rgb(255, 200, 180);
 }
+.image5 img{
+    transform: scale(0.79);
+    border: 2px solid rgb(255, 200, 180);
+    border-radius: 15px;
+    box-shadow: 14px 14px 55px rgba(0, 0, 0, 0.6);
+    margin-top: -4rem;
+    margin-bottom: -2rem;
+}
 @media (max-width: 768px) {
     .image2 img{
         transform: scale(0.25);
@@ -375,6 +382,11 @@ a {
         transform: scale(0.25);
         margin-bottom: -6rem;
     }
+    .image5 img {
+        margin-top: -12rem;
+        transform: scale(0.4);
+        margin-bottom: -13rem;
+    } 
 }
 
 hr {
