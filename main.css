@@ -292,6 +292,13 @@ a {
     }
 }
 
+.image2 {
+    background-color: rgb(45, 45, 50);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 .image2 img{
     transform: scale(0.39);
     display: flex;
@@ -307,7 +314,7 @@ a {
     margin-top: -1rem;
     max-width: 10rem;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 .image2 h3 {
     display: flex;
@@ -315,70 +322,23 @@ a {
     justify-content: center;
     color: rgb(255, 200, 180);
 }
-.image3 img{
-    transform: scale(0.39);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -3rem;
-    margin-bottom: -4rem;
-}
-.image3 a {
+.image5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -1rem;
-    max-width: 10rem;
-    text-align: center;
-    margin-left: 2rem;
-}
-.image3 h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 200, 180);
-}
-.image4 img{
-    transform: scale(0.39);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -3rem;
-    margin-bottom: -4rem;
-}
-.image4 a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -1rem;
-    max-width: 10rem;
-    text-align: center;
-    margin-left: 2rem;
-}
-.image4 h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 200, 180);
+    flex-direction: row;
 }
 .image5 img{
     transform: scale(0.79);
-    border: 2px solid rgb(255, 200, 180);
     border-radius: 15px;
-    box-shadow: 14px 14px 55px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
     margin-top: -4rem;
     margin-bottom: -2rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
 }
 @media (max-width: 768px) {
     .image2 img{
-        transform: scale(0.25);
-        margin-bottom: -6rem;
-    }
-    .image3 img{
-        transform: scale(0.25);
-        margin-bottom: -6rem;
-    }
-    .image4 img{
         transform: scale(0.25);
         margin-bottom: -6rem;
     }

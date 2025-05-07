@@ -110,8 +110,6 @@ nav {
 }
 
 .description_container {
-    margin-top: -6rem;
-    max-width: 200rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,11 +130,47 @@ nav {
 }
 .description_container h2 {
     color: rgb(255, 207, 150);
-    padding-top: 1rem;
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
+.description_container h3 {
+    color: rgb(255, 180, 150);
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+.description_container h4 {
+    color: rgb(173, 122, 101);
+    margin-top: 2rem;
+    margin-bottom: -1.5rem;
+    font-size: 2rem;
+}
+.old-price {
+    text-decoration: line-through;
+    color: rgb(207, 178, 146);
+    font-size: 1.5rem;
+}
+.new-price {
+    color: rgb(255, 220, 180);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 .description_container2 {
     padding: 1.5rem;
+    max-width: 120rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.description_container2 a {
+    font-size: 1.2rem;
+    color: rgb(255, 180, 150);
+}
+
+.description_container3 {
+    margin-top: 2rem;
+    padding: 2.5rem;
     max-width: 100rem;
     border-radius: 15px;
     text-align: left;
@@ -145,9 +179,10 @@ nav {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 2rem;
 }
-.description_container2 a {
-    font-size: 1.2rem;
+.description_container3 a {
+    font-size: 0.9rem;
     color: rgb(255, 180, 150);
 }
 
@@ -271,13 +306,14 @@ nav {
     background-color: rgb(255, 180, 150);
     border-width: 1px;
     border-radius: 10px;
-    font-size: 1.22rem;
     font-weight: bold;
     border-width: 0px;
     transition: all 0.3s ease;
+    margin-top: -1rem;
 }
 .button2 a {
-    color: rgb(35, 35, 40);
+    color: rgb(35, 35, 40);    
+    font-size: 1.8rem;
 }
 .button2:hover {
     width: 210px;
@@ -324,10 +360,9 @@ nav {
     padding-top: 1rem;
 }
 
-hr {
-    border: none;
+hr { border: none;
     height: 0.15rem;
-    background-color: rgb(130, 75, 4);
+    background-color: rgb(250, 195, 134);
     width: 45rem;
-    margin: 1rem 0;
+    margin: 0rem auto;
 }
