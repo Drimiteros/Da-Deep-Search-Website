@@ -320,6 +320,31 @@ nav {
 .button2:hover a {
     color: rgb(35, 35, 40);
 }
+.button3 {
+    width: 350px;
+    height: 60px;
+    background-color: rgb(255, 180, 150);
+    border-width: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-width: 0px;
+    transition: all 0.3s ease;
+    margin-top: -1rem;
+}
+.button3 a {
+    color: rgb(35, 35, 40);    
+    font-size: 1.8rem;
+}
+.button3:hover {
+    width: 370px;
+    height: 60px;
+    background-color: rgb(255, 230, 200);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button3:hover a {
+    color: rgb(35, 35, 40);
+}
 
 .container2 {
     display: flex;
