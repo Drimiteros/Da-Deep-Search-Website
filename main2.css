@@ -109,7 +109,7 @@ nav {
     color: rgb(0,0,0);
 }
 
-.description_container {
+.download_description_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,28 +125,23 @@ nav {
         transform: translateY(0);
     }
 }
-.description_container a {
+.download_description_container a {
     color: rgb(250, 195, 134);
 }
-.description_container h2 {
+.download_description_container h2 {
     color: rgb(255, 207, 150);
     font-size: 2.4rem;
 }
-.description_container h3 {
+.download_description_container h3 {
     color: rgb(255, 180, 150);
     padding-top: 1rem;
     font-size: 1.7rem;
 }
-.description_container h4 {
+.download_description_container h4 {
     color: rgb(173, 122, 101);
     margin-top: 2rem;
     margin-bottom: -1.5rem;
     font-size: 2rem;
-}
-.old-price {
-    text-decoration: line-through;
-    color: rgb(207, 178, 146);
-    font-size: 1.5rem;
 }
 .new-price {
     color: rgb(255, 220, 180);
@@ -154,7 +149,7 @@ nav {
     font-size: 2.5rem;
 }
 
-.description_container2 {
+.download_description_container2 {
     padding: 1.5rem;
     max-width: 120rem;
     text-align: left;
@@ -163,12 +158,12 @@ nav {
     justify-content: center;
     flex-direction: row;
 }
-.description_container2 a {
+.download_description_container2 a {
     font-size: 1.2rem;
     color: rgb(255, 180, 150);
 }
 
-.description_container3 {
+.download_description_container3 {
     margin-top: 2rem;
     padding: 2.5rem;
     max-width: 100rem;
@@ -181,7 +176,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.4);
     margin-right: 2rem;
 }
-.description_container3 a {
+.download_description_container3 a {
     font-size: 0.9rem;
     color: rgb(255, 180, 150);
 }
@@ -362,7 +357,7 @@ nav {
 
 hr { border: none;
     height: 0.15rem;
-    background-color: rgb(250, 195, 134);
-    width: 45rem;
+    background-color: rgb(115, 89, 68);
+    width: 30rem;
     margin: 0rem auto;
 }

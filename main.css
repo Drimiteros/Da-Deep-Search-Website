@@ -338,14 +338,27 @@ a {
     margin-right: -5rem;
 }
 @media (max-width: 768px) {
+    .image2 {
+        background-color: rgb(45, 45, 50);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+        border-radius: 12px;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
     .image2 img{
         transform: scale(0.25);
         margin-bottom: -6rem;
     }
+    .image5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .image5 img {
-        margin-top: -12rem;
+        margin-top: -15rem;
         transform: scale(0.4);
-        margin-bottom: -13rem;
+        margin-bottom: -14rem;
     } 
 }
 
