@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting to PayPal...</title>
+</head>
+<body onload="document.getElementById('paypalForm').submit();">
+  <p>Redirecting to PayPal. Please wait...</p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="paypalForm">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="drimiteros2@gmail.com">
+    <input type="hidden" name="item_name" value="User Registration">
+    <input type="hidden" name="currency_code" value="EUR">
+    <input type="hidden" name="amount" value="1">
+
+    <!-- <input type="hidden" name="return" value="http://dadeepsearchbuy.42web.io/success.php"> -->
+     <input type="hidden" name="return" value="https://drimiteros.github.io/Da-Deep-Search-Website/">
+    <input type="hidden" name="cancel_return" value="https://drimiteros.github.io/Da-Deep-Search-Website/">
+    <input type="hidden" name="rm" value="2">
+
+    <noscript><input type="submit" value="Click here if not redirected..."></noscript>
+  </form>
+</body>
+</html>

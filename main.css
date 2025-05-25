@@ -121,7 +121,7 @@ a {
 }
 
 .description_container {
-    margin-top: -6rem;
+    margin-top: 0rem;
     max-width: 105rem;
     display: flex;
     align-items: center;
@@ -176,12 +176,19 @@ a {
 .description_container2 a {
     font-size: 1.2rem;
 }
+.description_container2 hr {
+    border: none;
+    height: 0.15rem;
+    background-color: rgb(255, 230, 200);
+    width: 45rem;
+    margin: 1rem 0;
+}
 
 .image1 img{
     transform: scale(0.79);
     border: 2px solid rgb(255, 200, 180);
     border-radius: 15px;
-    margin-top: 7rem;
+    margin-top: 2rem;
     box-shadow: 14px 14px 55px rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 768px) {
@@ -208,7 +215,7 @@ a {
     font-weight: bold;
     border-width: 0px;
     transition: all 0.3s ease;
-    margin-right: 0.5rem;
+    margin-right: 1.5rem;
 }
 .button1:hover {
     width: 200px;
@@ -293,8 +300,6 @@ a {
 }
 
 .image2 {
-    background-color: rgb(45, 45, 50);
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
     border-radius: 12px;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -331,11 +336,10 @@ a {
 .image5 img{
     transform: scale(0.79);
     border-radius: 15px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
     margin-top: -4rem;
     margin-bottom: -2rem;
-    margin-left: -5rem;
-    margin-right: -5rem;
+    margin-left: -4rem;
+    margin-right: -4rem;
 }
 @media (max-width: 768px) {
     .image2 {
