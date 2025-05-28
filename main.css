@@ -327,6 +327,65 @@ a {
     justify-content: center;
     color: rgb(255, 200, 180);
 }
+.image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #19191d;
+    border-radius: 15px;
+    max-width: 20rem;
+    max-height: 25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.image3 img{
+    transform: scale(0.39);
+    margin-top: -5rem;
+}
+.image3 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6rem;
+    max-width: 10rem;
+    text-align: center;
+}
+.image3 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 200, 180);
+}
+.image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #19191d;
+    border-radius: 15px;
+    max-width: 20rem;
+    max-height: 25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.image4 img{
+    margin-top: -5rem;
+}
+.image4 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6rem;
+    max-width: 10rem;
+    text-align: center;
+}
+.image4 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 200, 180);
+}
 .image5 {
     display: flex;
     align-items: center;
