@@ -109,6 +109,72 @@ nav {
     color: rgb(0,0,0);
 }
 
+.notice_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 15px;
+    animation: slideFadeInLeft 1s ease-out forwards;
+    margin-top: -2rem;
+}
+@keyframes slideFadeInLeft {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.notice_container a {
+    color: rgb(250, 195, 134);
+}
+.notice_container h2 {
+    color: rgb(255, 187, 0);
+    font-size: 2.4rem;
+}
+.notice_container h3 {
+    color: rgb(255, 180, 150);
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+.notice_container h4 {
+    color: rgb(173, 122, 101);
+    margin-bottom: -1.5rem;
+    font-size: 2rem;
+}
+.notice_container2 {
+    padding: 1.5rem;
+    max-width: 120rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.notice_container2 a {
+    font-size: 1.2rem;
+    color: rgb(255, 180, 150);
+}
+
+.notice_container3 {
+    margin-top: 2rem;
+    padding: 1.8rem;
+    max-width: 100rem;
+    border-radius: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 2rem;
+}
+.notice_container3 a {
+    font-size: 0.9rem;
+    color: rgb(255, 180, 150);
+}
+
 .download_description_container {
     display: flex;
     align-items: center;
@@ -116,6 +182,7 @@ nav {
     flex-direction: row;
     border-radius: 15px;
     animation: slideFadeInLeft 1s ease-out forwards;
+    margin-top: -2rem;
 }
 @keyframes slideFadeInLeft {
     0% {
