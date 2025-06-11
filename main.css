@@ -114,7 +114,6 @@ nav {
     display: flex;
     color: rgb(255, 180, 150);
     padding-left: 3rem;
-    margin-top: -0.5rem;
 }
 a {
     padding: 2rem;
@@ -171,7 +170,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .description_container2 a {
     font-size: 1.2rem;
