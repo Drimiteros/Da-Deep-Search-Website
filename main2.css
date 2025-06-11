@@ -296,7 +296,7 @@ nav {
     color: rgb(35, 35, 40);
 }
 .button2 {
-    width: 200px;
+    width: 290px;
     height: 60px;
     background-color: rgb(255, 180, 150);
     border-width: 1px;
@@ -308,10 +308,10 @@ nav {
 }
 .button2 a {
     color: rgb(35, 35, 40);    
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .button2:hover {
-    width: 210px;
+    width: 300px;
     height: 60px;
     background-color: rgb(255, 230, 200);
     border-radius: 10px;
