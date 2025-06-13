@@ -96,7 +96,7 @@ nav {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
 }
 .nav-links a:hover::before {
     transform: scaleX(1);
@@ -125,7 +125,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     flex-direction: row;
     animation: slideFadeInLeft 1s ease-out forwards;
 }
@@ -164,7 +164,7 @@ a {
 }
 .description_container2 {
     padding: 1.5rem;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     text-align: left;
     display: flex;
     align-items: center;
@@ -185,10 +185,10 @@ a {
 
 .image1 img{
     transform: scale(0.79);
-    border: 2px solid rgb(255, 200, 180);
-    border-radius: 15px;
+    border: 0.125rem solid rgb(255, 200, 180);
+    border-radius: 0.9375rem;
     margin-top: 2rem;
-    box-shadow: 14px 14px 55px rgba(0, 0, 0, 0.6);
+    box-shadow: 0.875rem 0.875rem 3.4375rem rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 768px) {
     .image1 img {
@@ -204,24 +204,24 @@ a {
     flex-direction: row;
 }
 .button1 {
-    width: 190px;
-    height: 60px;
+    width: 11.875rem;
+    height: 3.75rem;
     color: rgb(35, 35, 40);
     background-color: rgb(255, 180, 150);
-    border-width: 1px;
-    border-radius: 10px;
+    border-width: 0.0625rem;
+    border-radius: 0.625rem;
     font-size: 1.22rem;
     font-weight: bold;
-    border-width: 0px;
+    border-width: 0rem;
     transition: all 0.3s ease;
     margin-right: 1.5rem;
 }
 .button1:hover {
-    width: 200px;
-    height: 60px;
+    width: 12.5rem;
+    height: 3.75rem;
     color: rgb(35, 35, 40);
     background-color: rgb(255, 230, 200);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     cursor: pointer;
 }
 .button1 a {
@@ -238,10 +238,10 @@ a {
     .button1 {
         margin-top: 1rem;
         margin-right: 0rem;
-        width: 300px;
+        width: 18.75rem;
     }
     .button1:hover {
-        width: 280px;
+        width: 17.5rem;
     }
     .button1 a {
         font-size: 1.1rem;
@@ -299,7 +299,7 @@ a {
 }
 
 .image2 {
-    border-radius: 12px;
+    border-radius: 0.75rem;
     margin-right: 1rem;
     margin-left: 1rem;
 }
@@ -332,7 +332,7 @@ a {
     align-items: center;
     flex-direction: column;
     background-color: #19191d;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     max-width: 20rem;
     max-height: 25rem;
     margin-right: 1rem;
@@ -362,7 +362,7 @@ a {
     align-items: center;
     flex-direction: column;
     background-color: #19191d;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     max-width: 20rem;
     max-height: 25rem;
     margin-right: 1rem;
@@ -393,7 +393,7 @@ a {
 }
 .image5 img{
     transform: scale(0.79);
-    border-radius: 15px;
+        border-radius: 0.9375rem;
     margin-top: -4rem;
     margin-bottom: -2rem;
     margin-left: -4rem;
@@ -402,8 +402,8 @@ a {
 @media (max-width: 768px) {
     .image2 {
         background-color: rgb(45, 45, 50);
-        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
-        border-radius: 12px;
+        box-shadow: 0.125rem 0.125rem 0.75rem rgba(0, 0, 0, 0.6);
+        border-radius: 0.75rem;
         margin-right: 1rem;
         margin-bottom: 1rem;
     }
