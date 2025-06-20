@@ -120,6 +120,7 @@ a {
 }
 
 .description_container {
+    margin-left: 3rem;
     margin-top: 0rem;
     max-width: 105rem;
     display: flex;
@@ -163,6 +164,7 @@ a {
     font-size: 3rem;
 }
 .description_container h3 {
+    max-width: 80rem;
     color: rgb(207, 186, 161);
     font-size: 1.1rem;
     margin-bottom: -2.5rem;
@@ -193,6 +195,7 @@ a {
     border: 0.125rem solid rgb(255, 200, 180);
     border-radius: 0.9375rem;
     margin-top: 2rem;
+    margin-left: -7rem;
     box-shadow: 0.875rem 0.875rem 3.4375rem rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 768px) {
@@ -306,7 +309,7 @@ a {
 .image2 {
     border-radius: 0.75rem;
     margin-right: 1rem;
-    margin-left: 1rem;
+    margin-left: 1rem;background-color: rgb(45, 45, 50);
 }
 .image2 img{
     transform: scale(0.39);
