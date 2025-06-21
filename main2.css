@@ -48,6 +48,10 @@ header {
     width: 100%;
     flex-direction: row;
 }
+header a {
+    display: flex;
+    color: rgb(255, 180, 150);
+}
 header H1 {
     display: flex;
     color: rgb(255, 180, 150);
