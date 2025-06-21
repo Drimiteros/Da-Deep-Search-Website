@@ -26,12 +26,14 @@ body {
 }
 
 header {
+    position: fixed;  
     background-color: rgb(35, 35, 40);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
+    z-index: 9999; 
 }
 header a {
     display: flex;
@@ -132,11 +134,13 @@ a {
     border-radius: 0.9375rem;
     flex-direction: row;
     animation: slideFadeInLeft 1s ease-out forwards;
+    margin-top: 6rem;
 }
 @media (max-width: 768px) {
     .description_container {
         margin-top: 1rem;
         flex-direction: column;
+        margin-top: 16rem;
     } 
     .download_description_container {
         margin-top: 1rem;
@@ -482,4 +486,91 @@ hr {
     hr {
         width: 20rem;
     }
+}
+
+.box div{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border: 6px solid rgba(255,255,255,0.8);
+}
+
+.box div:nth-child(1){
+	top: 12%;
+	left: 42%;
+	animation: anime 5s linear infinite;
+}
+
+.box div:nth-child(2){
+	top: 70%;
+	left: 50%;
+	animation: anime 2s linear infinite;
+}
+
+.box div:nth-child(3){
+	top: 17%;
+	left: 6%;
+	animation: anime 4s linear infinite;
+}
+
+.box div:nth-child(4){
+	top: 20%;
+	left: 60%;
+	animation: anime 5s linear infinite;
+}
+
+.box div:nth-child(5){
+	top: 37%;
+	left: 70%;
+	animation: anime 1s linear infinite;
+}
+
+.box div:nth-child(6){
+	top: 80%;
+	left: 75%;
+	animation: anime 7s linear infinite;
+}
+
+.box div:nth-child(7){
+	top: 60%;
+	left: 80%;
+	animation: anime 7s linear infinite;
+}
+
+.box div:nth-child(8){
+	top: 32%;
+	left: 25%;
+	animation: anime 2s linear infinite;
+}
+
+.box div:nth-child(9){
+	top: 90%;
+	left: 25%;
+	animation: anime 4s linear infinite;
+}
+
+.box div:nth-child(10){
+	top: 60%;
+	left: 8%;
+	animation: anime 3s linear infinite;
+}
+
+@keyframes anime{
+	0%{
+		transform: scale(0) translateY(0) rotate(0);
+		opacity: 1;
+		border: 6px solid #ffe6af;
+		background-color: #c5a767;
+	}	
+	50%{
+		border: 6px solid #ffb066;
+		background-color: #bd824a;
+	}
+	100%{
+		transform: scale(1) translateY(-90px) rotate(560deg);
+		opacity: 0;
+		background-color: #5a5a5a75;
+		border: 6px solid #5a5a5a;
+	}
 }
