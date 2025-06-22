@@ -34,19 +34,20 @@ body {
     display: flex;
     color: rgb(255, 180, 150);
     padding-left: 3rem;
-    margin-top: -0.5rem;
 }
 a {
     padding: 2rem;
 }
 
 header {
+    position: fixed;  
     background-color: rgb(35, 35, 40);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
+    z-index: 9999; 
 }
 header a {
     display: flex;
@@ -92,6 +93,16 @@ nav {
     z-index: 1;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .nav-links {
+        margin-left: 1.5rem;
+    }
+    .nav-links a {
+        font-size: 1rem;
+        padding-left: 0rem;
+        margin-top: 0.5rem;
+    } 
+}
 .nav-links a::before {
     content: "";
     position: absolute;
@@ -104,13 +115,13 @@ nav {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
 }
 .nav-links a:hover::before {
     transform: scaleX(1);
 }
 .nav-links a:hover {
-    color: rgb(0,0,0);
+    color: rgb(30, 30, 30);
 }
 
 .notice_container {
@@ -120,7 +131,6 @@ nav {
     flex-direction: row;
     border-radius: 15px;
     animation: slideFadeInLeft 1s ease-out forwards;
-    margin-top: -2rem;
 }
 @keyframes slideFadeInLeft {
     0% {
