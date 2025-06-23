@@ -44,14 +44,14 @@ header {
     background-color: rgb(35, 35, 40);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     flex-direction: row;
     z-index: 9999; 
 }
 header a {
     display: flex;
-    color: rgb(255, 180, 150);
+    color: rgb(255, 214, 197);
 }
 header H1 {
     display: flex;
@@ -262,6 +262,21 @@ nav {
     color: rgb(255, 216, 201);
 }
 
+.logoImage img{
+    transform: scale(0.20);
+    margin-top: -6.5rem;
+    margin-bottom: -10rem;
+    margin-left: -6rem;
+}
+@media (max-width: 768px) {
+    .logoImage img {
+       margin-top: -6.5rem;
+        margin-bottom: -10rem;
+        margin-left: -6rem;
+        margin-right: -3rem;
+        transform: scale(0.20);
+    } 
+}
 .image img{
     transform: scale(0.59);
     border-radius: 15px;
