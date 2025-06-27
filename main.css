@@ -336,6 +336,7 @@ a {
     color: rgb(255, 230, 200);
     padding-top: 1rem;
 }
+
 @media (max-width: 768px) {
     .about_container {
         padding: 2rem;
