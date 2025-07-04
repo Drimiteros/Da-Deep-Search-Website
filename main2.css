@@ -190,7 +190,7 @@ nav {
 @media (max-width: 768px) {
     .notice_container3 {
         margin-top: 7rem;
-        min-width: 19rem;
+        min-width: 24rem;
         margin-left: 2rem;
     }
 }
@@ -269,11 +269,11 @@ nav {
 }
 @media (max-width: 768px) {
     .download_description_container3 {
-        max-width: 15rem;
+        max-width: 24rem;
         margin-left: 2rem;
     }
     .download_description_container3 a {
-        max-width: 15rem;
+        max-width: 24rem;
     }
 }
 
