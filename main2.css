@@ -226,8 +226,6 @@ nav {
 }
 .download_description_container h4 {
     color: rgb(173, 122, 101);
-    margin-top: 2rem;
-    margin-bottom: -1.5rem;
     font-size: 2rem;
 }
 .new-price {
@@ -277,6 +275,22 @@ nav {
     }
 }
 
+.note_container {
+    background-color: #00000031;
+    border-radius: 15px;
+    padding: 1.5rem;
+    padding-left: 2rem;
+}
+
+ul li {
+    padding: 0.3rem;
+    color: white;
+    font-weight: lighter;
+}
+ul li::before {
+    margin-right: 0.5rem;
+}
+
 .logoImage img{
     transform: scale(0.20);
     margin-top: -6.5rem;
@@ -311,8 +325,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3rem;
-    margin-bottom: -4rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
 }
 .image2 a {
     display: flex;
