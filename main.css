@@ -137,7 +137,6 @@ a {
     justify-content: center;
     border-radius: 0.9375rem;
     flex-direction: row;
-    animation: slideFadeInLeft 1s ease-out forwards;
     margin-top: 6rem;
 }
 @media (max-width: 768px) {
@@ -150,14 +149,6 @@ a {
         margin-top: 1rem;
         flex-direction: column;
     } 
-}
-@keyframes slideFadeInLeft {
-    0% {
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
 .description_container a {
     color: rgb(193, 165, 154);
