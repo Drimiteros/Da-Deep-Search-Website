@@ -313,8 +313,8 @@ ul li::before {
 
 .logoImage img{
     transform: scale(0.20);
-    margin-top: -6.5rem;
-    margin-bottom: -10rem;
+    margin-top: -6rem;
+    margin-bottom: -6rem;
     margin-left: -6rem;
 }
 @media (max-width: 768px) {
