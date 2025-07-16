@@ -151,7 +151,7 @@ a {
     } 
 }
 .description_container a {
-    color: rgb(193, 165, 154);
+    color: rgb(158, 158, 158);
 }
 @media (max-width: 768px) {
     .description_container a {
@@ -162,23 +162,52 @@ a {
     }
 }
 .description_container h2 {
-    color: rgb(255, 230, 200);
+    color: rgb(255, 188, 143);
     padding-top: 1rem;
-    font-size: 180%;
+    font-size: 250%;
+    margin-left: -26.5rem;
 }
 .description_container h3 {
     max-width: 45rem;
-    color: rgb(207, 186, 161);
-    font-size: 100%;
-    margin-bottom: -8%;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin-top: 6%;
+    margin-bottom: -2rem;
+    font-weight: lighter;
+}
+.description_container h4 {
+    color: rgb(255, 222, 200);
+    padding-top: 0rem;
+    font-size: 150%;
+    margin-left: -30.3rem;
+    font-weight: lighter;
+}
+.description_container a hr {
+    border: none;
+    height: 0.10vw;
+    background-color: rgb(158, 158, 158);
+    width: 21vw;
+    margin: 1rem 0;
 }
 @media (max-width: 768px) {
+    .description_container h2 {
+        margin-left: 0rem;
+    }
     .description_container h3 {
         max-width: 25rem;
-        color: rgb(207, 186, 161);
         font-size: 1.1rem;
         margin-bottom: -2.5rem;
         text-align: center;
+    }
+    .description_container h4 {
+        margin-left: 0.3rem;
+    }
+    .description_container a hr {
+        border: none;
+        height: 0.10vw;
+        background-color: rgb(158, 158, 158);
+        width: 90vw;
+        margin: 1rem 0;
     }
 }
 .description_container2 {
@@ -229,8 +258,8 @@ a {
 @media (max-width: 768px) {
     .image1 img {
         margin-top: 5rem;
-        margin-left: 15.5rem;
-        width: 40%;
+        margin-left: 2.9rem;
+        width: 80%;
         height: auto;
     } 
 }
@@ -489,7 +518,7 @@ a {
 hr {
     border: none;
     height: 0.15vw;
-    background-color: rgb(60, 60, 68);
+    background-color: rgb(158, 158, 158);
     width: 45vw;
     margin: 1rem 0;
 }
