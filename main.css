@@ -129,7 +129,6 @@ a {
 }
 
 .description_container {
-    margin-top: 0rem;
     max-width: 105rem;
     display: flex;
     align-items: center;
@@ -232,8 +231,8 @@ a {
 
 .logoImage img{
     transform: scale(0.20);
-    margin-top: -6.5rem;
-    margin-bottom: -10rem;
+    margin-top: -6rem;
+    margin-bottom: -6rem;
     margin-left: -6rem;
 }
 @media (max-width: 768px) {
@@ -246,11 +245,12 @@ a {
     } 
 }
 .image1 img{
-    width: 90%;
+    width: 75%;
     height: auto;
     border: 0.125rem solid rgb(255, 200, 180);
     border-radius: 0.9375rem;
     margin-top: 2rem;
+    margin-left: 10rem;
     margin-bottom: 2rem;
     box-shadow: 0.875rem 0.875rem 3.4375rem rgba(0, 0, 0, 0.6);
 }
