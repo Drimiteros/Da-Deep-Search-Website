@@ -40,14 +40,12 @@ a {
 }
 
 header {
-    position: fixed;  
-    background-color: rgb(35, 35, 40);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
     flex-direction: row;
     z-index: 9999; 
+    margin-bottom: -3rem;
 }
 header a {
     display: flex;
