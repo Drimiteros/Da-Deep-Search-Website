@@ -136,6 +136,7 @@ a {
     border-radius: 0.9375rem;
     flex-direction: row;
     margin-top: 6rem;
+    margin-left: 10rem;
 }
 @media (max-width: 768px) {
     .description_container {
