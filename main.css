@@ -143,6 +143,7 @@ a {
         margin-top: 1rem;
         flex-direction: column;
         margin-top: 16rem;
+        margin-left: 0rem;
     } 
     .download_description_container {
         margin-top: 1rem;
@@ -296,6 +297,9 @@ a {
     color: rgb(35, 35, 40);
 }
 @media (max-width: 768px) {
+    .button1 {
+        margin-left: 0rem;
+    }
     .button1 a {
         display: flex;
         align-items: center;
