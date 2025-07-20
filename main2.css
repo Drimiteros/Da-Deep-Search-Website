@@ -218,7 +218,7 @@ nav {
     font-size: 2.4rem;
 }
 .download_description_container h3 {
-    color: rgb(255, 180, 150);
+    color: rgb(255, 230, 194);
     padding-top: 1rem;
     font-size: 1.7rem;
 }
@@ -296,10 +296,11 @@ nav {
 }
 
 .note_container {
+    display: flex;
     background-color: #00000031;
-    border-radius: 15px;
     padding: 1.5rem;
     padding-left: 2rem;
+    width: 104%;
 }
 
 ul li {
